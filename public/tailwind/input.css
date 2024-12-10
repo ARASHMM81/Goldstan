@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: "iran";
+
+    font-weight: 400;
+
+    src: url("/public/fonts/IRANSansLight.woff"), url("/public/fonts/english.woff2");
+  }
+}
